@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S'appeal Cosmetics</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <input type="checkbox" name = "" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">S'appeal</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#shop">Shop</a>
+            <a href="#contact">Contact</a>
+        </nav>
+      <div class="icons">
+        <a href="#" class="fas fa-search"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <button class="popup-button" onclick="togglePopup()"><a href="#" class="fas fa-user"></a></button> 
+
+      </div>
+    </header>
+
+
+  <section class = "home" id="home">
+    <div class="content">
+      <h3>YOUR TRUSTED BEAUTY PARTNER</h3>
+      <p>Explore premium skincare and beauty products for all skin types</p>
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+      <h1 class="heading">About us</h1>
+      <div class="row">
+        
+      <div class="video-container">
+      <video src="video/video.mp4" loop autoplay muted></video>
+    </div>
+
+    <div class="content">
+      <h3>Why Us?</h3>
+      <p>S'appeal Cosmetics is a premium beauty brand that offers a wide range of skincare and beauty products for all skin types. Our products are made from natural ingredients and are cruelty-free. We believe that everyone deserves to feel beautiful and confident in their own skin.
+       Our mission is to help you achieve that by providing you with high-quality products that are safe and effective. Whether you have dry, oily, or sensitive skin, we have something for everyone. Our products are designed to nourish, hydrate, and protect your skin, so you can look and feel your best every day. So why wait? Start your journey to beautiful skin with S'appeal Cosmetics today!</p>
+       <a href="#" class="btn">Read More</a>
+    </div>
+      </div>  
+      <section class="shop" id="shop">
+        <h1 class="heading">Our Products</h1>
+        <div class="box-container">
+    
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="images/lipstick.jpg" alt="Lipstick">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to Cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Lipstick</h3>
+                    <div class="price">Nrs.500 <span>Nrs.555</span></div>
+                </div>
+            </div>
+    
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="images/foundation.jpg" alt="Foundation">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to Cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Foundation</h3>
+                    <div class="price">Nrs.500 <span>Nrs.555</span></div>
+                </div>
+            </div>
+    
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="images/highlighter.jpg" alt="Highlighter">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to Cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Highlighter</h3>
+                    <div class="price">Nrs.500 <span>Nrs.555</span></div>
+                </div>
+            </div>
+ 
+            <div class="box">
+                <span class="discount">-15%</span>
+                <div class="image">
+                    <img src="images/mascara.jpg" alt="Mascara">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to Cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Mascara</h3>
+                    <div class="price">Nrs.600 <span>Nrs.755</span></div>
+                </div>
+            </div>
+    
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="images/hairoil.jpg" alt="Hair Oil">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to Cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Hair Oil</h3>
+                    <div class="price">Nrs.500 <span>Nrs.555</span></div>
+                </div>
+            </div>
+    
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="images/blush.jpg" alt="Lipstick">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to Cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Blush</h3>
+                    <div class="price">Nrs.500 <span>Nrs.555</span></div>
+                </div>
+            </div>
+    
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="images/nail.jpg" alt="Highlighter">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add to Cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Nail Polish</h3>
+                    <div class="price">Nrs.500 <span>Nrs.555</span></div>
+                </div>
+            </div>
+            <div class="box">
+              <span class="discount">-10%</span>
+              <div class="image">
+                  <img src="images/perfume.jpg" alt="Highlighter">
+                  <div class="icons">
+                      <a href="#" class="fas fa-heart"></a>
+                      <a href="#" class="cart-btn">Add to Cart</a>
+                      <a href="#" class="fas fa-share"></a>
+                  </div>
+              </div>
+              <div class="content">
+                  <h3>Perfume</h3>
+                  <div class="price">Nrs.500 <span>Nrs.555</span></div>
+              </div>
+          </div>
+          <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="images/cleanser.jpg" alt="Highlighter">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Cleanser</h3>
+                <div class="price">Nrs.500 <span>Nrs.555</span></div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+  <section class="contact" id="contact">
+    <h1 class="heading">Contact us</h1>
+      <div class="container">
+    
+          <div class="contact-options">
+              <div class="support-card">
+                  <h3>Customer Support</h3>
+                  <p>Need help with orders, returns, or anything else? We're here to help!</p>
+                  <a href="tel:+977123456789" class="btn">Call Us</a>
+                  <a href="mailto:support@ecommerce.com" class="btn secondary">Email Us</a>
+              </div>
+
+              <div class="help-card">
+                  <h3>Help Topics</h3>
+                  <ul>
+                      <li><a href="/order-tracking">Track Your Order</a></li>
+                      <li><a href="/returns">Return or Exchange Items</a></li>
+                      <li><a href="/shipping-info">Shipping Information</a></li>
+                      <li><a href="/faq">FAQs</a></li>
+                  </ul>
+              </div>
+          </div>
+
+          <div class="contact-details">
+              <h3>Our Contact Details</h3>
+              <p><strong>Address:</strong> 123 Lazimpat, Kathmandu, Nepal</p>
+              <p><strong>Phone:</strong> <a href="tel:+977123456789">+977-123-456-789</a></p>
+              <p><strong>Email:</strong> <a href="mailto:support@sappeal.com">support@sappeal.com</a></p>
+          </div>
+      </div>
+  </section>
+
+<footer class="footer">
+  <div class="footer-top">
+    
+      <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+           <li> <a href="#home">Home</a></li>
+           <li> <a href="#about">About</a></li>
+           <li> <a href="#shop">Shop</a></li>
+           <li> <a href="#contact">Contact</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-links">
+          <h3>Extra Links</h3>
+          <ul>
+              <li><a href="#home">Search</a></li>
+              <li><a href="#home">My Cart</a></li>
+              <li><a href="#home">My Account</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-contact">
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:info@sappeal.com">info@sappeal.com</a></p>
+          <p>Phone: <a href="tel:+977123456789">+977-123-456-789</a></p>
+          <p>Location:Lazimpat,Kathmandu</p>
+      </div>
+
+      <div class="footer-social">
+          <h3>Connect with Us</h3>
+          <div class="social-links">
+              <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.pinterest.com" target="_blank" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+          </div>
+      </div>
+  </div>
+
+  <div class="footer-bottom">
+      &copy; 2025 S'appeal. All Rights Reserved.
+  </div>
+</footer>
+
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+<div class="popup-box" id="popupBox">
+<button class="close-btn" onclick="togglePopup()">×</button>
+<ul class="account-list">
+    <li>Personal Info</li>
+    <li>Purchase Info</li>
+    <li>Payment Record</li>
+</ul>
+<a href="form.html" style="border: 1px solid black; padding: 10px; display: inline-block; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); color:aquamarine">Logout</a>
+</div>
+
+<script>
+
+function togglePopup() {
+    var popup = document.getElementById("popupBox");
+    if (popup.style.display === "none" || popup.style.display === "") {
+        popup.style.display = "block";
+    } else {
+        popup.style.display = "none"; 
+    }
+}
+
+</script>
+<script>
+function homepage(){
+        document.getElementById("popup-box").Logout();
+        window.location.href="form.html"
+}
+</script>
+
+
+</body>
+</html>
